@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pointstutorialsguides</title>
+    <title>Earndigitalgiftcards</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap" rel="stylesheet">
-<style>
-    *{
+    <style>
+        *{
     text-decoration: none;
     margin: 0;
     font-family: 'Nunito', sans-serif;
@@ -133,17 +134,28 @@ body{
 }
 
 .reviews{
-    display: grid;
-    grid-template-columns: 70vw 25vw;
-    align-items: center;
-    margin-left: 10vw;
-    margin-bottom: 25vh;
-    
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+    align-items: center;   
+}
+.reviewimage{
+    width: 20vh;
+    height: auto;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.reviewtitle{
+    font-size: 3rem;
 }
 #first-review{
     margin-top: 35vh;
 }
 
+.reviewtext{
+    font-size: 1.6rem;
+    text-align: center;
+}
 
 .sitename{
     font-size: 4rem;
@@ -300,6 +312,7 @@ body{
         flex-direction: column;
         margin-top: 10vh;
         margin-left: 10px;
+        margin-right: 10px;
     }
     .title{
         font-size: 10vw;
@@ -312,7 +325,7 @@ body{
     .reviews{
         grid-template-columns: 100%;
         margin-bottom: 10vh;
-        margin-left: 5vw;
+        margin: 5vw;
     }
     #first-review{
         margin-top: 20vh;
@@ -354,54 +367,27 @@ body{
         font-size: 8vw;
         padding: 5vw;
     }
-    
 }
-.cardsbox{
-    display: grid;
-    grid-template-columns: repeat(3, 25vw); 
-    grid-template-rows: repeat(1, 25vw); 
-    gap: 2vw; 
-    justify-content: center; 
-    padding: 10px;
-}
-.cardsbox img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain; 
-}
-@media screen and (max-width:450px) {
-    .cardsbox{
-        display: grid;
-        grid-template-columns: repeat(1, 35vh); 
-        grid-template-rows: repeat(3, 25vh); 
-        gap: 4vh; 
-        justify-content: center; 
-        padding: 10px;
-    }
-}
-</style>
+    </style>
 </head>
 <body>
     
     <div class="navbar">
         <div class="logo">
-            <a href="/"><button id="navLogo">pointstutorialsguides</button></a>
+            <a href="/"><button id="navLogo">Earndigitalgiftcards</button></a>
             <i class="fa fa-th-list" id="box"></i>
         </div>
         
         
         <div class="navbuttons" id="navbuttonss">
-            <a href="/"><button id="home">Home</button></a>
-            <a href="/"><button id="contact">Contact</button></a>
-            <a href="/"><button id="about">About</button></a>
         </div>
     </div>
 
         
     <div id="background1">
         <div id="welcomemessage">
-            <h1 id="title1">Welcome to <br>pointstutorialsguides !</h1>
-            <p id="paragraph1">A place to discover ways to get free game points.</p>
+            <h1 id="title1">Welcome to <br>Earndigitalgiftcards !</h1>
+            <p id="paragraph1">A guide that shows how to claim real gift cards.</p>
             
         </div>
         
@@ -410,80 +396,15 @@ body{
     <div id="background2">
         
         <div class="paragraph2-container">
-            <h3 class="title">How to get coins and points in any game?</h3>
-            <p class="paragraph">Discover our exclusive guide that reveals legitimate methods to get free game points and currencies! Perfect for mobile and console gaming enthusiasts, this guide shows you how to take advantage of promotions, events, and legal tricks to earn rewards without spending a cent. If you want to enhance your gaming experience without paying, this guide is for you!</p>
-        </div>
-        <div class="cardsbox">
-            <img src="https://play-lh.googleusercontent.com/dBbZ40lMR4RLnEI4kxNhBX-Dg2GzxM13F9lLHUY7fmoqv7VnuTQ1B7Qc3VtQMk0Oc6Q">
-            <img src="https://play-lh.googleusercontent.com/JUd09-Jkgctks6QibZBPeqnpPA-6A6nMXZqAW9Fa0MKOsolbvGKSXEnuq9nxiKNCFVOT">
-            <img src="https://play-lh.googleusercontent.com/lja_bcS9SXsaK4x_q0rXuiqf3CIIwfy8QveRWfW5MEaAPOST_auDLuzWMyMUrBzi0sI">
-        </div>
-        <button class="linkbutton">Access the guide</button>
-        <div data-captcha-enable="true">
+            <h3 class="title">Tired of those scam sites where you complete long tasks and get nothing in return ?</h3>
+            <p class="paragraph">Don't worry, I got you ! The only real ways to get gift cards is to either buy them (through Amazon or other stores), or earn them through online contests. The first option is always guarenteed if you follow my instructions. The process is simple, register in the site below, complete surveys, and then cash out using Amazon gift cards, this will allow you to get Amazon balence and then buy any kind of gift card you want. Note that this method won't replace a full time job and should only be considered as a side hustle.</p>
         </div>
 
-    </div>
-
-    
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-    <script>
-        var navButtons = document.querySelector('.navbuttons')
-        const navBar = document.querySelector('.navbar')
-        const box = document.querySelector('#box')
-        box.addEventListener('click',function(){
-            navButtons.classList.toggle('active1')
-            navBar.classList.toggle('active2')
-        })
+        <div class="reviews">
+            <h1 class="reviewtitle">Ysense</h1>
+            <img src="https://play-lh.googleusercontent.com/ZAJVpxpjqy-6qj0bfmho4lRM0nr-CmtAw_yNeKTo6TanaV-lQ0DiZGNKINoTeQ38Bw" class="reviewimage">
+            <p class="reviewtext"> ySense is a legitimate GPT platform that lets users earn small amounts of money by completing surveys, offers, tasks, and referrals. It’s available globally, with a low payout threshold and fast payments, making it a good option for casual extra income. However, frequent survey disqualifications, low pay, and occasional tracking issues mean it’s better as a side hustle than a main source of income.</p>
+            <a href="https://ysense.com/?rb=216322952"><button class="linkbutton">Access site</button></a>
+        </div>
         
-    </script>
-
-    <script type="text/javascript" src="https://appinstallcheck.com/cp/js/6jr5e">
-    </script>
-
-
-</body>
-</html>
+    </div>
